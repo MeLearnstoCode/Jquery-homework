@@ -29,6 +29,7 @@ $(document).ready(function(){
 		$('#main').replaceWith('<h1>Hello World!</h1>');
 	});
 });
+
 //5)Animate
 $(document).ready(function(){
      $("body").mouseenter(function(){
@@ -39,6 +40,7 @@ $(document).ready(function(){
         });
     });
 });
+
 // Toggle
 $(document).ready(function(){
     $("body").click(function(){
