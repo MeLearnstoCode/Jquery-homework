@@ -15,8 +15,8 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$('body').hover(function(){
 	// $('.img-swap').click(function(){
-		$('.img-swap').slideUp('slow');
-		$('.img-swap').slideDown('slow');
+		$('.img-slide').slideUp('slow');
+		$('.img-slide').slideDown('slow');
 		// alert('all done');
 
 		});
