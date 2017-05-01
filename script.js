@@ -13,8 +13,8 @@ $(document).ready(function(){
 // 3) Slide Up/Down
 
 $(document).ready(function(){
-	$('body').hover(function(){
-	// $('.img-swap').click(function(){
+	$('body').click(function(){
+	// $('.img-swap').hover(function(){
 		$('.img-slide').slideUp('slow');
 		$('.img-slide').slideDown('slow');
 		// alert('all done');
@@ -32,11 +32,13 @@ $(document).ready(function(){
 
 //5)Animate
 $(document).ready(function(){
-     $("body").mouseenter(function(){
+     $("body").click(function(){
     // $(".box").mouseenter(function(){
         $(".box").animate({
-        	height: '500px',
-        	width:'500px'
+        	marginLeft : "+=300px",
+            height: '500px',
+        	width:'500px',
+          
         });
     });
 });
